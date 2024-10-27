@@ -1,0 +1,23 @@
+ChatbotProject
+│
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── com
+│   │   │       └── chatbot
+│   │   │           ├── dao
+│   │   │           │   ├── DatabaseConnection.java
+│   │   │           │   ├── UserDAO.java
+│   │   │           │   ├── ConfigurationDAO.java
+│   │   │           │   ├── InteractionDAO.java
+│   │   │           │   └── FeedbackDAO.java
+│   │   │           ├── model
+│   │   │           │   ├── User.java
+│   │   │           │   ├── Configuration.java
+│   │   │           │   ├── Interaction.java
+│   │   │           │   └── Feedback.java
+│   │   │           └── service
+│   │   │               └── ChatbotService.java
+│   └── resources
+│       └── application.properties
+└── pom.xml
